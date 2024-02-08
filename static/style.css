@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar {
+    padding: 16px;
+
+    background-color: rgb(0, 0, 0);
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Young Serif', serif; */
+    font-family: 'Yeon Sung';
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 24px;
+   margin-right: 45px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 29px;
+    color: white;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    font-size: 29px;
+    padding: 15px 30px;
+    color: rgb(255, 0, 0);
+}
+
+#introSection {
+    padding-bottom: 45PX;
+    color: white;
+    display: flex;
+    font-size: 55px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: center/cover no-repeat url("/static/bg.avif");
+    height: 480px;
+    font-family: 'Young Serif', serif;
+
+    background-color: red;
+}
+
+#introSection div.class {
+    font-size: 37px;
+    padding: 10px;
+}
+
+#missionSection {
+    height: 380px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+#missionSection h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 27px;
+    font-family: 'Young Serif', serif;
+}
+.card{
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 7px;
+    width: 29%;
+    height: 220px;
+    margin: 23px 20px;
+}
+
+.card p{
+    font-size: 23px;
+    margin: 0px 12px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} 
+
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 0px 4px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin:5px 10px;
+}
+
+#sponsorSection {
+    height: 350px;
+    background-color: rgb(198, 198, 198)
+}
+
+#sponsorSection h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 27px;
+    font-family: 'Young Serif', serif;
+}
+#sponsors{
+    height: 180px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 60%;
+    margin: 48px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    background-color: black;
+}

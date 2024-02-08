@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Yeon+Sung&display=swap');
+h1{
+    text-align: center;
+    margin: 33px 0px;
+    margin-bottom: 0px;
+    font-size: 55px;
+    color: rgb(139, 37, 37);
+}
+
+.container{
+    min-height: 86.8vh;
+    display:flex ;
+    flex-direction: column;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+
+.container h1{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Yeon Sung', system-ui;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.myInput{
+   width: 470px;
+   margin: 20px;
+   padding: 5px;
+   border: 3px solid rgb(115, 115, 115);
+   border-radius: 9px;
+   font-size: 18px;
+   outline: none;
+}
+
+.btn{
+   width: 200px;
+   border: 3px solid rgb(0, 0, 0);
+   border-radius: 9px;
+   background-color: rgb(211, 211, 211);
+   font-size: 18px;
+   margin: 18px;
+   padding: 3px;
+}
+
+.btn:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
